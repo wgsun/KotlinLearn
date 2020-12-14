@@ -7,4 +7,14 @@ package com.examply.kotlinlearn.chapter1
  */
 public class Section4 {
 
+    //声明组件
+    //private lateinit var mTabLayout : TabLayout
+
+    lateinit var a : Int
+
+    //赋值
+    //mTabLayout = find(R.id.***)
+    //使用
+    //mTabLayout.setupWithViewPager(mViewPager)
+
 }
