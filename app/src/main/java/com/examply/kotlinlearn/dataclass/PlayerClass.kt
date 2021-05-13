@@ -8,6 +8,12 @@ package com.examply.kotlinlearn.dataclass
 class PlayerClass(val name: String, var age: Int) {
 }
 
+
+data class DataClassDemo(
+    val name: String,
+    val age : Int
+)
+
 data class PlayDataClass(val name: String, var age: Int) {
     var point: Int = 0
 
